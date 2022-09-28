@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
     <link rel="stylesheet" type="text/css" media="screen" href="static/css/style.css" />
-    <script src="/static/js/index.js"></script>
+    <!-- <script src="../PassGen/static/js/index.js"></script> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
@@ -19,10 +19,10 @@
 <h1 class="heading">Generate a</h1>
 <h1 class="subhead"> random password</h1>
 <p class="supportText">Never use an insecure password again.</p>
-<button class="buttonOne" onclick="Pass">Generate Passwords</button>
+<button class="buttonOne" onclick="get_pass()">Generate Passwords</button>
 <hr class="line">
-<button class="rectangleOne" id="PassOne">pass 1</button>
-<button class="rectangleTwo" id="PassTwo">pass 2</button>
+<button class="rectangleOne" id="passOne"></button>
+<button class="rectangleTwo" id="passTwo">pass 2</button>
 </div> 
 
 <!-- end box one -->
@@ -30,5 +30,6 @@
 <p class="boxTwoSubhead">Passwords provide the first line of defense</p>
 <p class="boxTwoText">against unauthorized access to your computer and personal information. The stronger your password, the more protected your computer will be from hackers and malicious software. You should maintain strong passwords for all accounts on your computer.</p>
 </div>
+<script src="../PassGen/static/js/index.js"></script>
 </body>
 </html>
