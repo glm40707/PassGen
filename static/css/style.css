@@ -26,68 +26,194 @@ body {
 }
 
 .heading {
-    position: absolute;
-    width: 354px;
-    height: 80px;
-    left: 52px;
-    top: 115px;
-    
-    font-family: 'Karla', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 40px;
-    /* or 100% */
-    
-    letter-spacing: -0.025em;
-    
-    /* white */
-    
-    color: #FFFFFF; 
+  position: absolute;
+  width: 354px;
+  height: 80px;
+  left: 52px;
+  top: 115px;
+
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  /* or 100% */
+
+  letter-spacing: -0.025em;
+
+  /* white */
+
+  color: #ffffff;
+  margin-top: -5px;
 }
 
 .subhead {
-  
-    position: absolute;
-    width: 354px;
-    height: 80px;
-    left: 52px;
-    top: 155px;
-    
-    font-family: 'Karla', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 40px;
-    /* or 100% */
-    
-    letter-spacing: -0.025em;
-    
-    /* white */
-    
-    color: #4ADF86; 
+  position: absolute;
+  width: 354px;
+  height: 80px;
+  left: 52px;
+  top: 155px;
 
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  /* or 100% */
 
+  letter-spacing: -0.025em;
+  margin-top: -5px;
+
+  /* white */
+
+  color: #4adf86;
 }
 
 .supportText {
   position: absolute;
-width: 372px;
-height: 28px;
-left: 52px;
-top: 205px;
+  width: 372px;
+  height: 28px;
+  left: 52px;
+  top: 205px;
 
-/* text-xl/leading-7/font-normal */
+  /* text-xl/leading-7/font-normal */
 
-font-family: 'Francois One', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-/* identical to box height, or 140% */
+  font-family: "Inter Tight", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  /* identical to box height, or 140% */
 
+  /* Medium grey */
 
-/* Medium grey */
+  color: #d5d4d8;
+  margin-top: -5px;
+}
 
-color: #D5D4D8;
+.buttonOne {
+  /* Button */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px 9px 15px;
+  gap: 12px;
+  margin-top: 45px;
+
+  position: absolute;
+  width: 191px;
+  height: 42px;
+  left: 52px;
+  top: 284px;
+
+  background: #10b981;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+
+  color: #ffffff;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: -5px;
+  border: none;
+  cursor: pointer;
+}
+
+#buttonText {
+  /* Text */
+
+  width: 159px;
+  height: 24px;
+
+  /* text-base/leading-6/font-medium */
+
+  font-family: "Inter Tight", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* white */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.line {
+  position: absolute;
+  width: 446px;
+  height: 0px;
+  left: 52px;
+  top: 361px;
+
+  border: 1px solid #2f3e53;
+  margin-top: -5px;
+}
+
+.rectangleOne {
+  /* Rectangle 95 */
+
+  position: absolute;
+  width: 211px;
+  height: 39px;
+  left: 52px;
+  top: 396px;
+
+  background: #273549;
+  border-radius: 6px;
+  /* margin-top: 66px; */
+  margin-top: -5px;
+  color: #4adf86;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 14px;
+  border: none;
+}
+
+.rectangleTwo {
+  position: absolute;
+  width: 211px;
+  height: 39px;
+  left: 287px;
+  top: 396px;
+
+  background: #273549;
+  border-radius: 6px;
+
+  margin-top: -5px;
+  color: #4adf86;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 14px;
+  border: none;
+}
+
+.boxTwoText {
+  color: #4adf86;
+  font-family: "Inter Tight", sans-serif;
+  padding: 0px 50px 10px 50px;
+  font-size: 18px;
+  margin-top: -20px;
+}
+
+.boxTwoSubhead {
+  color: #ffffff;
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 40px;
+  padding: 125px 50px 0px 50px;
 }
