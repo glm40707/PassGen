@@ -1,0 +1,47 @@
+body {
+  background-color: #1c1c1c;
+  width: auto;
+  height: auto;
+  overflow: auto;
+}
+
+.mainBoxOne {
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  left: 62px;
+  top: 64px;
+
+  background: #1f2937;
+}
+
+.mainBoxTwo {
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  left: 642px;
+  top: 64px;
+
+  background: #1f2937;
+}
+
+.heading {
+    position: absolute;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 115px;
+    
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+    
+    letter-spacing: -0.025em;
+    
+    /* white */
+    
+    color: #FFFFFF; 
+}
