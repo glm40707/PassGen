@@ -100,13 +100,13 @@ function shuffle(array) {
 }
 shuffle(characters);
 
-let gen = ["test"];
+let gen = [''];
 function get_pass() {
   for (let i = 0; i < 15; i++) {
     gen[i] = characters[i];
   }
-  gen = gen.join("")
-  pass_one.textContent = gen
+//   gen = gen.join("")
+  return pass_one.textContent = gen.join("")
 }
 // get_pass();
 
