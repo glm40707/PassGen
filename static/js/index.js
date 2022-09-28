@@ -92,9 +92,7 @@ const characters = [
   "/",
 ];
 
-let button = document.getElementById("buttonOne");
-let pass_one = document.getElementById("passOne");
-let pass_two = document.getElementById("passTwo");
+// let button = document.getElementById("buttonOne");
 
 function shuffle(array) {
   array.sort(() => Math.random() - 0.5);
@@ -106,8 +104,8 @@ function get_pass() {
   for (let i = 0; i < 15; i++) {
     gen[i] = characters[i];
   }
-  //   gen = gen.join("")
-  pass_one.textContent = gen.join("");
+  document.getElementById("buttonOne");
+  document.getElementById("passOne").textContent = gen.join("");
 }
 
 let gen2 = [""];
@@ -116,6 +114,6 @@ function get_pass2() {
   for (let i = 0; i < 15; i++) {
     gen2[i] = characters[i];
   }
-  gen = gen.join("");
-  pass_two.textContent = gen2.join("");
+  document.getElementById("buttonOne");
+  document.getElementById("passTwo").textContent = gen2.join("");
 }
