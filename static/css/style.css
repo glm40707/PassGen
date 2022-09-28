@@ -23,6 +23,11 @@ body {
   top: 64px;
 
   background: #1f2937;
+
+  /* simple animated gif */
+  /* background-image: url('https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif'); */
+  background-image: url('../img/animate.gif');
+  background-size: cover;
 }
 
 .heading {
