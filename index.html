@@ -1,35 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Password Generator</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="static/css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="static/css/style.css"
+    />
     <!-- <script src="../PassGen/static/js/index.js"></script> -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200&display=swap" rel="stylesheet">
-</head>
-<body>
-<!-- start box one -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- start box one -->
 
-<div class="mainBoxOne">
-<h1 class="heading">Generate a</h1>
-<h1 class="subhead"> random password</h1>
-<p class="supportText">Never use an insecure password again.</p>
-<button class="buttonOne" onclick="get_pass(); get_pass2()">Generate Passwords</button>
-<hr class="line">
-<button class="rectangleOne" id="passOne">get pass</button>
-<button class="rectangleTwo" id="passTwo">get pass</button>
-</div> 
+    <div class="mainBoxOne">
+      <h1 class="heading">Generate a</h1>
+      <h1 class="subhead">random password</h1>
+      <p class="supportText">Never use an insecure password again.</p>
+      <button class="buttonOne" onclick="get_pass(); get_pass2()">
+        Generate Passwords
+      </button>
+      <hr class="line" />
+      <div class="rectangleOne">
+        <div class="centered" id="passOne">get pass</div>
+      </div>
+      <div class="rectangleTwo">
+        <div class="centered" id="passTwo">get pass</div>
+      </div>
+    </div>
 
-<!-- end box one -->
-<div class="mainBoxTwo">
-<p class="boxTwoSubhead">Passwords provide the first line of defense</p>
-<p class="boxTwoText">against unauthorized access to your computer and personal information. The stronger your password, the more protected your computer will be from hackers and malicious software. You should maintain strong passwords for all accounts on your computer.</p>
-</div>
-<script src="../PassGen/static/js/index.js"></script>
-</body>
+    <!-- end box one -->
+    <div class="mainBoxTwo">
+      <p class="boxTwoSubhead">Passwords provide the first line of defense</p>
+      <p class="boxTwoText">
+        against unauthorized access to your computer and personal information.
+        The stronger your password, the more protected your computer will be
+        from hackers and malicious software. You should maintain strong
+        passwords for all accounts on your computer.
+      </p>
+    </div>
+    <script src="../PassGen/static/js/index.js"></script>
+  </body>
 </html>

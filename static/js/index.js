@@ -108,6 +108,14 @@ function get_pass() {
   document.getElementById("passOne").textContent = gen.join("");
 }
 
+function copyText() {
+  /* Copy text into clipboard */
+  
+  navigator.clipboard.writeText(gen.join(""));
+
+  alert("Password copied to clipboard");
+}
+
 let gen2 = [""];
 function get_pass2() {
   shuffle(characters);
